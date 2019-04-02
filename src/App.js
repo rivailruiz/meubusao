@@ -63,6 +63,7 @@ import './App.css';
           <option value="7986">Associação de moradores Anaia</option>
           <option value="7573">Passarela Arsenal (sentido Niterói)</option>
           <option value="69827">CIEP Zuzu Angel (sentido Anaia)</option>
+          <option value="49365">Terminal de Niterói</option>
         </select>
         <h3 className="titulo" className={this.state.escondeLoading ? '' : 'hide'}>{this.state.mensagem}</h3>
         <ul className={this.state.escondeLoading ? '' : 'hide'}>
