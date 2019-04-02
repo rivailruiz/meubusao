@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import axios from 'axios'
 import './App.css';
+import ReactGA from 'react-ga';
 
 
   
@@ -13,6 +14,12 @@ import './App.css';
       local: '',
       localSelecionado: '7986'
     }
+    initializeReactGA = () => {
+        ReactGA.initialize('UA-137485584-1');
+        ReactGA.pageview('/homepage');
+        console.log('inicia GA')
+    }
+   
     getRoute = (local) => {
       this.setState({escondeLoading:false})
       axios.get('https://cors-anywhere.herokuapp.com/http://zn4.m2mcontrol.com.br/api//forecast/lines/load/forecast/lines/fromPoint/'+local+'/159')
@@ -37,6 +44,7 @@ import './App.css';
     
  
     componentDidMount(){
+      this.initializeReactGA()
       // axios.get(`https://cors-anywhere.herokuapp.com/http://zn4.m2mcontrol.com.br/api//forecast/lines/load/forecast/lines/fromPoint/7986/159`)
       // .then(res => {
       //   // var img = document.getElementsByClassName('img')[];
