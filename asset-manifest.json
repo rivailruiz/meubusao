@@ -1,14 +1,14 @@
 {
-  "main.css": "/meubusao/static/css/main.c0cdc5f0.chunk.css",
-  "main.js": "/meubusao/static/js/main.841a32bb.chunk.js",
-  "main.js.map": "/meubusao/static/js/main.841a32bb.chunk.js.map",
+  "main.css": "/meubusao/static/css/main.35929587.chunk.css",
+  "main.js": "/meubusao/static/js/main.0056ce36.chunk.js",
+  "main.js.map": "/meubusao/static/js/main.0056ce36.chunk.js.map",
   "runtime~main.js": "/meubusao/static/js/runtime~main.f9a8ef7b.js",
   "runtime~main.js.map": "/meubusao/static/js/runtime~main.f9a8ef7b.js.map",
   "static/js/2.6c5f6fdd.chunk.js": "/meubusao/static/js/2.6c5f6fdd.chunk.js",
   "static/js/2.6c5f6fdd.chunk.js.map": "/meubusao/static/js/2.6c5f6fdd.chunk.js.map",
   "index.html": "/meubusao/index.html",
-  "precache-manifest.609304486e89129b1e2a461235c66855.js": "/meubusao/precache-manifest.609304486e89129b1e2a461235c66855.js",
+  "precache-manifest.1ebc899654cbdea87e36400418582f0a.js": "/meubusao/precache-manifest.1ebc899654cbdea87e36400418582f0a.js",
   "service-worker.js": "/meubusao/service-worker.js",
-  "static/css/main.c0cdc5f0.chunk.css.map": "/meubusao/static/css/main.c0cdc5f0.chunk.css.map",
+  "static/css/main.35929587.chunk.css.map": "/meubusao/static/css/main.35929587.chunk.css.map",
   "static/media/logo.svg": "/meubusao/static/media/logo.5d5d9eef.svg"
 }

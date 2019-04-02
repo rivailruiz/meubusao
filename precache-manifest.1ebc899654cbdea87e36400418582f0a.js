@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/meubusao/static/js/runtime~main.f9a8ef7b.js"
   },
   {
-    "revision": "841a32bbeb0bff8bf73c",
-    "url": "/meubusao/static/js/main.841a32bb.chunk.js"
+    "revision": "0056ce3674324ec6edbf",
+    "url": "/meubusao/static/js/main.0056ce36.chunk.js"
   },
   {
     "revision": "6c5f6fddacbd3ce829ae",
     "url": "/meubusao/static/js/2.6c5f6fdd.chunk.js"
   },
   {
-    "revision": "841a32bbeb0bff8bf73c",
-    "url": "/meubusao/static/css/main.c0cdc5f0.chunk.css"
+    "revision": "0056ce3674324ec6edbf",
+    "url": "/meubusao/static/css/main.35929587.chunk.css"
   },
   {
-    "revision": "fb735f13cd003dd843a49b94e975f424",
+    "revision": "c297b1f00221df978b9aae2d9293a1a2",
     "url": "/meubusao/index.html"
   }
 ];
