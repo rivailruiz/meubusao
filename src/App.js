@@ -14,6 +14,7 @@ import './App.css';
       localSelecionado: '7986'
     }
     getRoute = (local) => {
+      this.setState({escondeLoading:false})
       axios.get('https://cors-anywhere.herokuapp.com/http://zn4.m2mcontrol.com.br/api//forecast/lines/load/forecast/lines/fromPoint/'+local+'/159')
       .then(res => {
         // var img = document.getElementsByClassName('img')[];
@@ -61,10 +62,10 @@ import './App.css';
           <option>Selecione uma opção</option>
           <option value="7986">Associação de moradores Anaia</option>
           <option value="7573">Passarela Arsenal (sentido Niterói)</option>
-          <option value="7556">Passarela Arsenal (sentido Anaia)</option>
+          <option value="69827">CIEP Zuzu Angel (sentido Anaia)</option>
         </select>
-        <h1 className="titulo">{this.state.mensagem}</h1>
-        <ul>
+        <h3 className="titulo" className={this.state.escondeLoading ? '' : 'hide'}>{this.state.mensagem}</h3>
+        <ul className={this.state.escondeLoading ? '' : 'hide'}>
           { this.state.veiculos.map(veiculo => <li><span>{veiculo.nameLine} em: </span>{veiculo.arrivalTime}min</li>)}
         </ul>
       </div>
