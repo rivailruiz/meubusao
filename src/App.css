@@ -9,6 +9,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+img {
+  width: 100%;
+  height: auto;
+}
+body {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
 .titulo {
   color: #fff;
 }
